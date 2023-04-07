@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(imagem/fundoCapa.png);
+    background-size: cover;
+    
+}
+
+h1, h2, h3{
+    text-align: center; 
+    color: #a09038;
+    font-size: 40px;
+    color: #F1E99A;
+}
+
+h1{
+    font-family: 'Jolly Lodger', cursive;
+    font-size: 80px;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+}
+
+.imagem{
+    height: 190px;
+    width: 200px;
+    margin-top: 50px;
+}
+
+.nomePersonagem, a{
+    color: #F1E99A;
+    font-size: 30px;
+    margin-left: 22px;
+    background-color: green;
+    width: 0px;
+    text-decoration: none;
+}
+
+#imgBiologo{
+    height: 180px;
+    margin-bottom: 11px;
+}
+
+footer{
+    margin-top: 160px;
+    color: #F1E99A;
+    text-align: center;
+    font-size: bold;
+    background-color: green;
+}
+
+a:hover{
+    color: #1f1c07;
+    background-color: rgb(27, 248, 7);
+    font-weight: bold;
+    transition: 1s;
+
+}
+
+@media(max-width:600px){
+   header{
+    max-width: 100%;
+   }
+   h1{
+    font-size: 35px;
+    text-align: center;
+   }
+   h2,h3{
+    font-size: 20px;
+    text-align: center;
+   }
+   main{
+    margin: 100px 0 0 50px;
+     justify-content: space-evenly;
+     max-width: 65%;
+   }
+   section{
+     width: 60%;
+   }
+   .imagem{
+    width: 130px;
+   }
+   .nomePersonagem, a{
+    font-size: 15px;
+    
+   }
+
+   footer{
+      margin-top: 420px;
+   }
+   
+}
+
+
+@media(max-width:380px){
+    header{
+        max-width: 100%;
+    }
+    h1{
+     font-size: 31px;
+     text-align: center;
+    }
+    h2,h3{
+     font-size: 15px;
+     text-align: center;
+    }
+    
+    main{
+     margin: 25px 0 0 25px;
+     justify-content: space-evenly;
+     max-width: 65%;
+    }
+    section{
+      width: 30%;
+      margin: 60px 25px 0px 25px
+      
+    }
+    .imagem{
+     width: 120 px;
+    }
+    .nomePersonagem, a{
+     font-size: 10px;
+    }
+ 
+    footer{
+       margin-top: 300px;
+    }
+    
+ }
+
+
+
+    
