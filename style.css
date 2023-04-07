@@ -61,6 +61,49 @@ a:hover{
 
 }
 
+@media(max-width:915px){
+    header{
+        max-width: 100%;
+       }
+       h1{
+        margin: 20px 0;
+        font-size: 50px;
+        text-align: center;
+       }
+       h2,h3{
+        margin: 5px 0;
+        font-size: 28px;
+        text-align: center;
+       }
+       main{
+        margin: 100px 0 0 100px;
+         justify-content: space-evenly;
+         max-width: 90%;
+       }
+       section{
+         width: 90%;
+       }
+       .imagem{
+        width: 200px;
+       }
+       .nomePersonagem, a{
+        font-size: 25px;
+        
+       }
+    
+       footer{
+          margin-top: 400px;
+       }
+    
+       a:hover{
+        color: #1f1c07;
+        background-color: rgb(27, 248, 7);
+        font-weight: bold;
+        transition: 1s;
+    
+    }
+}
+
 @media(max-width:600px){
    header{
     max-width: 100%;
@@ -94,6 +137,14 @@ a:hover{
    footer{
       margin-top: 400px;
    }
+
+   a:hover{
+    color: #1f1c07;
+    background-color: rgb(27, 248, 7);
+    font-weight: bold;
+    transition: 1s;
+
+}
    
 }
 
@@ -132,6 +183,14 @@ a:hover{
  
     footer{
        margin-top: 280px;
+    }
+
+    a:hover{
+        color: #1f1c07;
+        background-color: rgb(27, 248, 7);
+        font-weight: bold;
+        transition: 1s;
+    
     }
     
  }
