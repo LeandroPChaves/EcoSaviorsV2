@@ -172,7 +172,7 @@ a:hover{
     body{
         height: 880px;
         background-repeat: no-repeat;
-        background-attachment: fixed;
+        /* background-attachment: fixed; */
         background-position: center;
         
     }
@@ -196,7 +196,6 @@ a:hover{
     }
  
     footer, p{
-       /* margin-top: 280px; */
        margin: 212px 0;
     }
 
@@ -227,7 +226,7 @@ a:hover{
     body{
         height: 730px;
         background-repeat: no-repeat;
-        background-attachment: fixed;
+        /* background-attachment: fixed; */
         background-position: center;
         
     }
