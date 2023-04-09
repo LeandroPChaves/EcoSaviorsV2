@@ -76,10 +76,11 @@ a:hover{
         text-align: center;
        }
        body{
-        height: 1150px;
+        height: 300px;
+        background-repeat: no-repeat;
       }
        main{
-        margin: 100px 0 0 100px;
+        margin: 15px 0 0 100px;
          justify-content: space-evenly;
          max-width: 90%;
        }
@@ -95,7 +96,7 @@ a:hover{
        }
     
        footer{
-        margin: 618px 0;
+        margin: 100px 0;
        }
     
        a:hover{
@@ -107,7 +108,7 @@ a:hover{
     }
 }
 
-@media(max-width:600px){
+@media(max-width:700px){
    header{
     max-width: 100%;
    }
@@ -122,10 +123,10 @@ a:hover{
     text-align: center;
    }
    body{
-    height: 750px;
+    height: 400px;
    }
    main{
-    margin: 100px 0 0 50px;
+    margin: 1px 0 0 110px;
      justify-content: space-evenly;
      max-width: 65%;
    }
@@ -141,7 +142,7 @@ a:hover{
    }
 
    footer{
-    margin: 280px 0;
+    margin: 80px 0;
     
    }
 
@@ -170,7 +171,7 @@ a:hover{
      text-align: center;
     }
     body{
-        height: 880px;
+        height: 830px;
         background-repeat: no-repeat;
         /* background-attachment: fixed; */
         background-position: center;
@@ -196,7 +197,7 @@ a:hover{
     }
  
     footer, p{
-       margin: 212px 0;
+       margin: 187px 0;
     }
 
     a:hover{
@@ -224,7 +225,7 @@ a:hover{
      text-align: center;
     }
     body{
-        height: 730px;
+        height: 570px;
         background-repeat: no-repeat;
         /* background-attachment: fixed; */
         background-position: center;
@@ -232,7 +233,7 @@ a:hover{
     }
     
     main{
-     margin: 25px 0 0 25px;
+     margin: 25px 0 0 28px;
      justify-content: space-evenly;
      max-width: 65%;
     }
@@ -247,12 +248,12 @@ a:hover{
     }
     .nomePersonagem, a{
      font-size: 10px;
-     margin-top: 45px;
+     margin-top: 20px;
     }
  
     footer, p{
        /* margin-top: 280px; */
-       margin: 154px 0;
+       margin: 90px 0;
     }
 
     a:hover{
