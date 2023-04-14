@@ -1,5 +1,63 @@
-body{
-    background-image: url(https://img.freepik.com/fotos-premium/um-leopardo-na-natureza-capturado-a-noite_781958-502.jpg?w=826);
-    background-size: cover;
-    color: white;
+*{
+    margin: 0;
+    padding: 0;
 }
+
+@font-face {
+    font-family: 'Tragicastle';
+    src: url('Tragicastle.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    /* Extraída do site DaFont */
+}
+
+@font-face {
+    font-family: 'TOMORROW';
+    src: url('TOMORROW.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    /*(https://img.freepik.com/fotos-premium/um-leopardo-na-natureza-capturado-a-noite_781958-502.jpg?w=826);*/
+    background-image: url(fundoFase1.png);
+    background-size: cover;
+    color: #f5edab;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.cabecario{
+    min-width: 320px;
+    max-width: 800px;
+    margin: auto;
+    text-align: justify;
+}
+#boasVindas{
+    text-align: center;
+    font-family: Tragicastle;
+    font-size: 40px;
+    padding: 5px;
+}
+.principal{
+    display: flex;
+    justify-content: space-between;
+    max-width: 90%;
+    margin: auto;
+}
+#pjogar{
+    margin: 30px  10px;
+    width: 300px;
+    min-width: 200px;
+}
+#h3jogando{
+    margin-top: 60px;
+    font-family: TOMORROW;
+    font-size: 30px;
+}
+img{
+    height: 250px;
+    margin-top: 20px;
+}
+.secundaria{
+    text-align: center;
+    align-items: center;
+}
+
