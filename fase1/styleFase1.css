@@ -48,16 +48,34 @@ body{
     min-width: 200px;
 }
 #h3jogando{
-    margin-top: 60px;
     font-family: TOMORROW;
     font-size: 30px;
+    
 }
 img{
     height: 250px;
-    margin-top: 20px;
+    margin-top: 50px;
+}
+.principal{
+    margin-top: 30px;
 }
 .secundaria{
     text-align: center;
     align-items: center;
+    border-style: double;
+    margin: 10px 0;
+    padding: 50px;
+    border-radius: 10px;
+}
+.botao input{
+    height: 50px;
+    width: 100px;
+}
+footer{
+    background-color: #c2bc877c;
+    color: rgb(243, 235, 235);
+    font-weight: bold;
+    text-align: center;
+    margin-top: 137px;
 }
 
