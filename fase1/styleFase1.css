@@ -56,6 +56,9 @@ img{
     height: 250px;
     margin-top: 50px;
 }
+#imgBiologo{
+    height: 230px;
+}
 .principal{
     margin-top: 30px;
 }
@@ -66,11 +69,50 @@ img{
     margin: 10px 0;
     padding: 50px;
     border-radius: 10px;
+    box-shadow: 3px 2px 5px 1px #ececad49;
 }
+.secundariaBiologo{
+    text-align: center;
+    align-items: center;
+    border-style: double;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 3px 2px 5px 1px #ececad49;
+}
+.botao .botaoVoltar{
+    height: 50px;
+    width: 140px;
+    background: linear-gradient(to right, #9e6a1d,  #1d1501  );
+    color: #f5edab;
+    text-transform: uppercase;
+    font-weight: bolder;
+    border-radius: 5px;
+    box-shadow: 1px 2px 2px 1px #f7f7a149;
+    border: none;
+}
+
 .botao input{
     height: 50px;
-    width: 100px;
+    width: 140px;
+    background: linear-gradient(to right, #9e6a1d,  #1d1501  );
+    color: #f5edab;
+    text-transform: uppercase;
+    font-weight: bolder;
+    border-radius: 5px;
+    box-shadow: 1px 2px 2px 1px #f7f7a149;
+    border: none;
 }
+input{
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.botaoVoltar a{
+    text-decoration: none;
+    color: #f5edab;
+    
+}
+
 footer{
     background-color: #c2bc877c;
     color: rgb(243, 235, 235);
@@ -78,4 +120,12 @@ footer{
     text-align: center;
     margin-top: 137px;
 }
+
+input:hover{
+    color: #1f1c07;
+    font-weight: bold;
+    transition: 1s;
+    background: linear-gradient(to right, #614d2e, #c7841f)  ;
+}
+
 
