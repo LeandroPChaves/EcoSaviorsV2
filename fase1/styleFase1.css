@@ -115,17 +115,73 @@ input{
 
 footer{
     background-color: #c2bc877c;
-    color: rgb(243, 235, 235);
+    color: rgb(243, 235, 235); 
     font-weight: bold;
     text-align: center;
     margin-top: 137px;
 }
 
-input:hover{
+.botao :hover{
     color: #1f1c07;
     font-weight: bold;
     transition: 1s;
     background: linear-gradient(to right, #614d2e, #c7841f)  ;
+}
+
+@media(max-width:500px){
+    body{
+        background-position: center;
+    }
+    #boasVindas{
+        font-size: 15px;
+    }
+    #apresentacao{
+        font-size: 10px;
+        max-width: 95%;
+        text-align: center;
+    }
+    #imgGuarda{
+        height: 155px;
+    }
+    #imgHeroina{
+        height: 110px;
+    }
+    #imgBiologo{
+        height: 110px;
+    }
+    .principal{
+        width: 200px;
+        margin: 12px 0;
+    }
+    .secundaria{
+        font-size: 10px;
+        width: 50%;
+        height: 200px;
+    }
+    #pjogar{
+        width: 1px;
+        margin-left: -50px;
+    }
+    #h3jogando{
+        margin-top: -45px;
+        font-size: 15px;
+    }
+    .botao input{
+        width: 100px;
+        margin: 10px 0;
+        font-size: 10px;
+        font-weight: bold;
+    }
+    .botao .botaoVoltar{
+        width: 100px;
+    }
+    .botaoVoltar{
+        font-size: 10px;
+    }
+     footer{
+        padding: 4px;
+        font-size: 10px;
+    } 
 }
 
 
