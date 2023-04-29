@@ -118,7 +118,7 @@ footer{
     color: rgb(243, 235, 235); 
     font-weight: bold;
     text-align: center;
-    margin-top: 137px;
+    margin-top: 118px;
 }
 
 .botao :hover{
@@ -127,7 +127,66 @@ footer{
     transition: 1s;
     background: linear-gradient(to right, #614d2e, #c7841f)  ;
 }
-/* @media(max-width:500px){
+ @media(max-width:500px){
+    body{
+        background-position: center;
+    }
+    #boasVindas{
+        font-size: 20px;
+    }
+    #apresentacao{
+        margin: 40px 0;
+        font-size: 14px;
+        max-width: 98%;
+        text-align: center;
+    }
+    #imgGuarda{
+        height: 170px;
+    }
+    #imgHeroina{
+        height: 130px;
+    }
+    #imgBiologo{
+        height: 130px;
+    }
+    .principal{
+        width: 230px;
+        margin: -30px 60px;
+    }
+    .secundaria{
+        font-size: 14px;
+        width: 50%;
+        height: 220px;
+        height: 280px;
+    }
+    #pjogar{
+        width: 1px;
+        margin-left: -50px;
+    }
+    #h3jogando{
+        margin-top: -45px;
+        font-size: 19px;
+    }
+    .botao input{
+        width: 120px;
+        margin: 10px 0;
+        font-size: 13px;
+        font-weight: bold;
+    }
+    .botao .botaoVoltar{
+        width: 120px;
+        margin: 10px 0;
+    }
+    .botaoVoltar{
+        font-size: 13px;
+    }
+     footer{
+        margin-top: 359px;
+        padding: 6px;
+        font-size: 12px;
+    } 
+} 
+@media(max-width:400px){
     body{
         background-position: center;
     }
@@ -151,7 +210,7 @@ footer{
     }
     .principal{
         width: 210px;
-        margin: 20px 48px;
+        margin: -20px 60px;
     }
     .secundaria{
         font-size: 11px;
@@ -179,11 +238,11 @@ footer{
         font-size: 12px;
     }
      footer{
-        margin-top: 212px;
+        margin-top: 375px;
         padding: 4px;
         font-size: 11px;
     } 
-} */
+}
 
 
 @media(max-width:380px){
@@ -202,7 +261,7 @@ footer{
         height: 160px;
     }
     #imgHeroina{
-        height: 115px;
+        height: 113px;
         
 }
     #imgBiologo{
@@ -210,7 +269,7 @@ footer{
     }
     .principal{
         width: 210px;
-        margin: 20px 48px;
+        margin: 20px 35px;
     }
     .secundaria{
         font-size: 11px;
@@ -238,7 +297,7 @@ footer{
         font-size: 12px;
     }
      footer{
-        margin-top: 212px;
+        margin-top: 244px;
         padding: 4px;
         font-size: 11px;
     } 
@@ -266,17 +325,18 @@ footer{
         height: 110px;
     }
     .principal{
-        width: 200px;
+        width: 202px;
         margin: 10px 0;
     }
     .secundaria{
-        font-size: 10px;
+        font-size: 9px;
         width: 50%;
         height: 200px;
     }
     #pjogar{
         width: 1px;
         margin-left: -50px;
+        
     }
     #h3jogando{
         margin-top: -45px;
@@ -300,6 +360,65 @@ footer{
         font-size: 10px;
     } 
 }
+
+@media(max-width:280px){
+    body{
+        background-position: center;
+    }
+    #boasVindas{
+        font-size: 15px;
+    }
+    #apresentacao{
+        font-size: 10px;
+        max-width: 95%;
+        text-align: center;
+    }
+    #imgGuarda{
+        height: 160px;
+    }
+    #imgHeroina{
+        height: 110px;
+    }
+    #imgBiologo{
+        height: 110px;
+    }
+    .principal{
+        width: 180px;
+        margin: 10px 12px;
+    }
+    .secundaria{
+        font-size: 10px;
+        width: 54%;
+        height: 200px;
+    }
+    #pjogar{
+        width: 1px;
+        margin-left: -50px;
+    }
+    #h3jogando{
+        margin-top: -45px;
+        font-size: 15px;
+    }
+    .botao input{
+        width: 100px;
+        margin: 10px 0;
+        font-size: 10px;
+        font-weight: bold;
+    }
+    .botao .botaoVoltar{
+        width: 100px;
+    }
+    .botaoVoltar{
+        font-size: 10px;
+    }
+     footer{
+        margin-top: 264px;
+        padding: 3px;
+        font-size: 10px;
+        width: 320px;
+    } 
+}
+
 
 
 
