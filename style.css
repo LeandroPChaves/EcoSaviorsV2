@@ -82,16 +82,16 @@ a:hover{
        }
        h1{
         margin: 20px 0;
-        font-size: 60px;
+        font-size: 40px;
         text-align: center;
        }
        h2,h3{
         margin: 5px 0;
-        font-size: 35px;
+        font-size: 30px;
         text-align: center;
        }
        body{
-        height: 1315px;
+        height: 1340px;
         background-repeat: no-repeat;
       }
        main{
@@ -104,21 +104,20 @@ a:hover{
        }
        .imagem{
         margin-top: 130px;
-        width: 200px;
-        height: 300px;
-        margin-left: -30px;
+        width: 140px;
+        height: 210px;
+        margin-left: -15px;
        }
        #imgBiologo{
-        height: 290px;
+        height: 200px;
        }
        .nomePersonagem, a{
-        font-size: 45px;
+        font-size: 30px;
         margin-left: -2px;
        }
         footer{
-        margin: 625px 0;
-        padding: 8px;
-        font-size: 25px;
+        margin: 770px 0;
+        font-size: 20px;
        }
         a:hover{
         color: #1f1c07;
@@ -135,7 +134,7 @@ a:hover{
    }
    h1{
     margin: 20px 0;
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
    }
    h2,h3{
@@ -144,27 +143,35 @@ a:hover{
     text-align: center;
    }
    body{
-    height: 680px;
+    height: 690px;
    }
    main{
     margin: 1px 0 0 110px;
      justify-content: space-evenly;
      max-width: 65%;
    }
-   section{
-     width: 60%;
-   }
    .imagem{
-    width: 130px;
+    margin-top: 130px;
+    width: 120px;
+    height: 150px;
+    margin-left: 15px;
+   }
+   #imgBiologo{
+    height: 140px;
    }
    .nomePersonagem, a{
     font-size: 15px;
+    margin-left: 25px;
    }
 
    footer{
-    margin: 110px 0;
-    
-   }
+    margin: 280px 0;
+    height: 15px;
+    font-size: 15px;
+}
+    footer p{
+    margin-top: -4px;
+}
 
    a:hover{
     color: #1f1c07;
@@ -182,16 +189,16 @@ a:hover{
     }
     h1{
      margin: 5px 0;
-     font-size: 40px;
+     font-size: 35px;
      text-align: center;
     }
     h2,h3{
      margin: 5px 0;
-     font-size: 25px;
+     font-size: 20px;
      text-align: center;
     }
     body{
-        height: 780px;
+        height: 870px;
         background-repeat: no-repeat;
         /* background-attachment: fixed; */
         background-position: center;
@@ -210,22 +217,22 @@ a:hover{
     }
     .imagem{
         margin-top: 30px;
-        width: 180px;
-        height: 210px;
-        margin-left: 25px;
+        width: 150px;
+        height: 150px;
+        margin-left: 35px;
     }
     #imgBiologo{
-        height: 199px;
+        height: 140px;
     }
     .nomePersonagem, a{
-     font-size: 28px;
+     font-size: 25px;
      margin-top: 20px;
      margin-left: 32px;
     }
  
     footer{
-        margin: 280px 0;
-        height: 10px;
+        margin: 440px 0;
+        height: 15px;
         font-size: 15px;
     }
     footer p{
@@ -248,16 +255,16 @@ a:hover{
     }
     h1{
      margin: 5px 0;
-     font-size: 30px;
+     font-size: 25px;
      text-align: center;
     }
     h2,h3{
      margin: 5px 0;
-     font-size: 18px;
+     font-size: 15px;
      text-align: center;
     }
     body{
-        height: 895px;
+        height: 890px;
         background-repeat: no-repeat;
         /* background-attachment: fixed; */
         background-position: center;
@@ -277,27 +284,27 @@ a:hover{
     .imagem{
         margin-top: 30px;
         width: 120px;
-        height: 200px;
+        height: 150px;
         margin-left: 25px;
     }
     #imgBiologo{
-        height: 190px;
+        height: 140px;
     }
     .nomePersonagem, a{
-     font-size: 25px;
+     font-size: 20px;
      margin-top: 20px;
      margin-left: 20px;
     }
  
     footer{
-        margin: 425px 0;
-        height: 10px;
+        margin: 500px 0;
+        height: 15px;
         font-size: 12px;
     }
  
     footer p{
-         margin-top: -1px;
-         height: 2px;
+         margin-top: 2px;
+         height: 3px;
     }
 
     a:hover{
@@ -326,7 +333,7 @@ a:hover{
      text-align: center;
     }
     body{
-        height: 730px;
+        height: 750px;
         background-repeat: no-repeat;
         /* background-attachment: fixed; */
         background-position: center;
@@ -359,7 +366,7 @@ a:hover{
     }
  
     footer{
-       margin: 352px 0;
+       margin: 383px 0;
        height: 10px;
        font-size: 10px;
     }
