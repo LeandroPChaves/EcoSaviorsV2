@@ -128,7 +128,7 @@ a:hover{
     }
 }
 
-@media(max-width:700px){
+@media(max-width:740px){
    header{
     max-width: 100%;
    }
