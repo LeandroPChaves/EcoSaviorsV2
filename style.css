@@ -23,8 +23,7 @@ h1{
 main{
     display: flex;
     justify-content: space-around;
-    /* min-width: 320px;
-    margin: auto; */
+    
 }
 
 .imagem{
@@ -74,12 +73,7 @@ a:hover{
        }
 }
 
-
-
-@media(max-width:915px){
-    header{
-        max-width: 100%;
-       }
+@media(max-width:1180px){
        h1{
         margin: 20px 0;
         font-size: 40px;
@@ -91,7 +85,7 @@ a:hover{
         text-align: center;
        }
        body{
-        height: 1340px;
+        height: 600px;
         background-repeat: no-repeat;
       }
        main{
@@ -106,17 +100,17 @@ a:hover{
         margin-top: 130px;
         width: 140px;
         height: 210px;
-        margin-left: -15px;
+        margin-left: 40px;
        }
        #imgBiologo{
         height: 200px;
        }
        .nomePersonagem, a{
         font-size: 30px;
-        margin-left: -2px;
+        margin-left: 30px;
        }
         footer{
-        margin: 770px 0;
+        margin: 250px 0;
         font-size: 20px;
        }
         a:hover{
@@ -128,7 +122,56 @@ a:hover{
     }
 }
 
-@media(max-width:740px){
+
+@media(max-width:915px){
+       h1{
+        margin: 20px 0;
+        font-size: 40px;
+        text-align: center;
+       }
+       h2,h3{
+        margin: 5px 0;
+        font-size: 30px;
+        text-align: center;
+       }
+       body{
+        height: 1000px;
+        background-repeat: no-repeat;
+      }
+       main{
+        margin: 15px 0 0 100px;
+         justify-content: space-evenly;
+       }
+       section{
+         width: 90%;
+       }
+       .imagem{
+        margin-top: 130px;
+        width: 140px;
+        height: 150px;
+        margin-left: 22px;
+       }
+       #imgBiologo{
+        height: 140px;
+       }
+       .nomePersonagem, a{
+        font-size: 25px;
+        margin-left: 22px;
+       }
+        footer{
+        margin: 500px 0;
+        font-size: 20px;
+       }
+        a:hover{
+        color: #1f1c07;
+        background-color: rgb(27, 248, 7);
+        font-weight: bold;
+        transition: 1s;
+    
+    }
+}
+
+@media(max-width:780px){
    header{
     max-width: 100%;
    }
@@ -143,7 +186,7 @@ a:hover{
     text-align: center;
    }
    body{
-    height: 690px;
+    height: 900px;
    }
    main{
     margin: 1px 0 0 110px;
@@ -165,7 +208,7 @@ a:hover{
    }
 
    footer{
-    margin: 280px 0;
+    margin: 500px 0;
     height: 15px;
     font-size: 15px;
 }
@@ -264,7 +307,7 @@ a:hover{
      text-align: center;
     }
     body{
-        height: 890px;
+        height: 920px;
         background-repeat: no-repeat;
         /* background-attachment: fixed; */
         background-position: center;
@@ -297,7 +340,7 @@ a:hover{
     }
  
     footer{
-        margin: 500px 0;
+        margin: 515px 0;
         height: 15px;
         font-size: 12px;
     }
@@ -388,9 +431,7 @@ a:hover{
 
 
  @media(max-width:330px){
-    header{
-        max-width: 100%;
-    }
+    
     h1{
      margin: 5px 0;
      font-size: 25px;
@@ -402,7 +443,7 @@ a:hover{
      text-align: center;
     }
     body{
-        height: 550px;
+        height: 560px;
         background-repeat: no-repeat;
         /* background-attachment: fixed; */
         background-position: center;
@@ -439,8 +480,7 @@ a:hover{
     }
  
     footer, p{
-       /* margin-top: 280px; */
-       margin: 130px 0;
+      margin: 138px 0;
     }
 
     a:hover{
