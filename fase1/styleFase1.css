@@ -502,36 +502,33 @@ footer{
         font-size: 15px;
     }
     #apresentacao{
-        font-size: 10px;
-        max-width: 95%;
+        font-size: 8px;
         text-align: center;
+        width: 95%
     }
     #imgGuarda{
-        height: 160px;
+        height: 120px;
     }
     #imgHeroina{
-        height: 110px;
+        height: 90px;
     }
     #imgBiologo{
-        height: 110px;
+        height: 90px;
     }
     .principal{
-        width: 202px;
-        margin: 10px 0;
+        width: 190px;
     }
     .secundaria{
         font-size: 9px;
-        width: 50%;
         height: 200px;
+        margin-left: 2px;
     }
-    #pjogar{
-        width: 1px;
-        margin-left: -50px;
+    /* #pjogar{
+    
         
-    }
+    } */
     #h3jogando{
-        margin-top: -45px;
-        font-size: 15px;
+       font-size: 15px;
     }
     .botao input{
         width: 100px;
@@ -547,7 +544,6 @@ footer{
     }
      footer{
         margin-top: 142px;
-        padding: 3px;
         font-size: 10px;
     } 
 }

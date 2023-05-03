@@ -331,7 +331,7 @@ footer{
         font-size: 20px;
     }
     #apresentacao{
-        font-size: 14px;
+        font-size: 13px;
         text-align: center;
         font-weight: bold;
         margin-top: 1px;
@@ -352,8 +352,7 @@ footer{
     .secundaria{
         font-size: 14px;
         width: 50%;
-        height: 220px;
-        height: 280px;
+        height: 320px;
     }
     #pjogar{
         width: 1px;
@@ -364,17 +363,17 @@ footer{
         font-size: 19px;
     }
     .botao input{
-        width: 120px;
+        width: 125px;
         margin: 10px 0;
-        font-size: 13px;
+        font-size: 12px;
         font-weight: bold;
     }
     .botao .botaoVoltar{
-        width: 120px;
+        width: 125px;
         margin: 10px 0;
     }
     .botaoVoltar{
-        font-size: 13px;
+        font-size: 12px;
     }
      footer{
         margin-top: 415px;
@@ -382,7 +381,7 @@ footer{
         font-size: 12px;
     } 
 } 
-@media(max-width:412px){
+@media(max-width:414px){
     body{
         background-position: center;
     }
@@ -412,7 +411,7 @@ footer{
     .secundaria{
         font-size: 11px;
         width: 50%;
-        height: 220px;
+        height: 270px;
     }
     #pjogar{
         width: 1px;
@@ -423,13 +422,14 @@ footer{
         font-size: 17px;
     }
     .botao input{
-        width: 110px;
-        margin: 10px 0;
+        width: 130px;
+        margin: 10px -10px;
         font-size: 12px;
         font-weight: bold;
     }
     .botao .botaoVoltar{
-        width: 110px;
+        width: 130px;
+        margin-left: -10px;
     }
     .botaoVoltar{
         font-size: 12px;
@@ -456,23 +456,25 @@ footer{
         margin-top: 1px;
     }
     #imgGuarda{
-        height: 160px;
+        height: 150px;
+        margin-left: 10px;
     }
     #imgHeroina{
-        height: 110px;
-        
-}
+        height: 100px;
+        margin-left: 10px;
+    }
     #imgBiologo{
-        height: 110px;
+        height: 100px;
+        margin-left: 15px;
     }
     .principal{
         width: 200px;
-        margin: 20px -8px;
+        margin: 20px -22px;
     }
     .secundaria{
         font-size: 11px;
         width: 50%;
-        height: 200px;
+        height: 300px;
     }
     #pjogar{
         width: 1px;
@@ -483,13 +485,14 @@ footer{
         font-size: 17px;
     }
     .botao input{
-        width: 110px;
-        margin: 10px 0;
+        width: 130px;
+        margin: 10px -20px;
         font-size: 12px;
         font-weight: bold;
     }
     .botao .botaoVoltar{
-        width: 110px;
+        width: 130px;
+        margin-left: -15px;
     }
     .botaoVoltar{
         font-size: 12px;
@@ -510,30 +513,28 @@ footer{
     }
     #apresentacao{
         font-size: 10px;
-        max-width: 95%;
         text-align: center;
     }
     #imgGuarda{
-        height: 160px;
+        height: 120px;
     }
     #imgHeroina{
-        height: 110px;
+        height: 80px;
     }
     #imgBiologo{
-        height: 110px;
+        height: 80px;
     }
     .principal{
-        width: 202px;
-        margin: 10px 0;
+        margin: 10px -10px;
     }
     .secundaria{
         font-size: 9px;
-        width: 50%;
-        height: 200px;
+        height: 220px;
+        width: 100px;
+        margin-left: 3px;
     }
     #pjogar{
-        width: 1px;
-        margin-left: -50px;
+        font-size: 8px;
         
     }
     #h3jogando{
@@ -548,9 +549,10 @@ footer{
     }
     .botao .botaoVoltar{
         width: 100px;
+        margin-left: 2px;
     }
     .botaoVoltar{
-        font-size: 10px;
+        font-size: 9px;
     }
      footer{
         margin-top: 142px;
@@ -565,6 +567,7 @@ footer{
     }
     #boasVindas{
         font-size: 15px;
+        text-align: center;
     }
     #apresentacao{
         font-size: 10px;
@@ -579,21 +582,25 @@ footer{
         height: 110px;
     }
     .principal{
-        width: 180px;
-        margin: 10px 1px;
+        display: inline-block;
+        width: 135px;
+        margin-top: -70px;
+        margin-left: 65px;
     }
     .secundaria{
         font-size: 10px;
-        width: 54%;
-        height: 200px;
+        width: 70%;
+        height: 220px;
+        margin-left: -30px;
     }
-    #pjogar{
-        width: 1px;
-        margin-left: -50px;
+    p #pjogar{
+        height: 100px;
+        width: 15px;
+        font-size: 6px;
     }
     #h3jogando{
         margin-top: -45px;
-        font-size: 15px;
+        font-size: 12px;
     }
     .botao input{
         width: 100px;
@@ -603,15 +610,16 @@ footer{
     }
     .botao .botaoVoltar{
         width: 100px;
+        margin-left: 1px;
     }
     .botaoVoltar{
         font-size: 10px;
     }
      footer{
-        margin-top: 350px;
+        margin-top: 200px;
         padding: 3px;
         font-size: 10px;
-        width: 355px;
+
     } 
 }
 @media(min-width:1440px){
