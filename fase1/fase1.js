@@ -1,5 +1,6 @@
 function btnFase1Guarda(){
     let opcoes = prompt (`
+    Digite 1, 2 ou 3 para marcar a opção desejada:
     1: Partir para o confronto corporal de imediato, afinal o momento requer uma ação urgente. 
     2: Acionar os órgãos competentes para definição de uma estratégia, mas isso pode levar alguns dias. 
     3: Utilizar seus super poderes para neutralizar a ação dos caçadores.`);
@@ -23,6 +24,7 @@ function btnFase1Guarda(){
 
 function btnFase1Heroina(){
     let opcoes = prompt(`
+    Digite 1, 2 ou 3 para marcar a opção desejada:
     1: Ativar uma escudo protetor contra armas químicas na área de preservação.
     2: Retirar todas os animais da área de preservação.
     3: Descobrir quem são os vilões e prendê-los.`)
@@ -46,6 +48,7 @@ function btnFase1Heroina(){
 
 function btnFase1Biologo(){
   let opcoes = prompt(`
+  Digite 1, 2 ou 3 para marcar a opção desejada:
   1: Fazer uma fórmula para aplicar na água,plantas e frutas, tirando os efeitos da contaminação.
   2: Purificar uma área isolada, colocar todas as éspécies nela enquanto for descontaminando o restante da mata.
   3: Deixar que os animais procurem locais para se salvar devido ao seu instinto de sobrevivência.`)

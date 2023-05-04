@@ -1,0 +1,138 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Tragicastle';
+    src: url('../fase1/Tragicastle.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    /* Extraída do site DaFont */
+}
+
+@font-face {
+    font-family: 'TOMORROW';
+    src: url('../fase1/TOMORROW.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    background-image: url(https://gizmodo.uol.com.br/wp-content/blogs.dir/8/files/2013/07/3d-wwi-1.gif);
+    background-image: url('https://1.bp.blogspot.com/-AzwzIUyUjQ0/UAV9pH-AQwI/AAAAAAAAIck/fXPqyJJGXu0/s1600/Wallpaper+-+Guerra+3d.jpg');
+    background-size: cover;
+    color: #452c08;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.cabecario{
+    margin: auto;
+    text-align: center;
+    font-family: 'Jolly Lodger', cursive;
+    font-size: 30px;
+}
+#boasVindas{
+    text-align: center;
+    font-family: Tragicastle;
+    font-size: 40px;
+    padding: 5px;
+}
+
+.principal{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 500px 137px 0;
+    color: #452c08;
+    font-weight: bold;
+}
+#pjogar{
+    margin: 30px  10px;
+    width: 300px;
+    min-width: 200px;
+    background-color: #614d2e81;
+    color: #E8C8A1;
+}
+#h3jogando{
+    font-family: TOMORROW;
+    font-size: 30px;
+    color: #E8C8A1;
+    background-color: #614d2e81;
+}
+img{
+    height: 200px;
+    margin-top: 50px;
+}
+#imgBiologo{
+    height: 230px;
+}
+.principal{
+    margin-top: 30px;
+    
+}
+.secundaria{
+    text-align: center;
+    align-items: center;
+    border-style: double;
+    margin: 15px 15px;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 3px 2px 5px 1px #ececad49;
+    height: 320px;
+}
+.secundariaBiologo{
+    text-align: center;
+    align-items: center;
+    border-style: double;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 3px 2px 5px 1px #ececad49;
+}
+.botao .botaoVoltar{
+    height: 50px;
+    width: 140px;
+    background: linear-gradient(to right, #9e6a1d,  #1d1501  );
+    color: #f5edab;
+    text-transform: uppercase;
+    font-weight: bolder;
+    border-radius: 5px;
+    box-shadow: 1px 2px 2px 1px #f7f7a149;
+    border: none;
+}
+
+.botao input{
+    height: 50px;
+    width: 140px;
+    background: linear-gradient(to right, #9e6a1d,  #1d1501  );
+    color: #f5edab;
+    text-transform: uppercase;
+    font-weight: bolder;
+    border-radius: 5px;
+    box-shadow: 1px 2px 2px 1px #f7f7a149;
+    border: none;
+}
+input{
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.botaoVoltar a{
+    text-decoration: none;
+    color: #f5edab;
+    
+}
+
+footer{
+    background-color: #614d2e81;
+    color: rgb(243, 235, 235); 
+    font-weight: bold;
+    text-align: center;
+    margin-top: -90px;
+}
+
+.botao :hover{
+    color: #1f1c07;
+    font-weight: bold;
+    transition: 1s;
+    background: linear-gradient(to right, #614d2e, #c7841f)  ;
+}
