@@ -1,3 +1,9 @@
+.gameOver{
+    background-image: url('https://gizmodo.uol.com.br/wp-content/blogs.dir/8/files/2013/07/3d-wwi-1.gif');
+    color: red;
+    font-size: 80px;
+}
+
 *{
     margin: 0;
     padding: 0;
