@@ -50,7 +50,7 @@ main{
     text-decoration: none;
 }
 footer{
-    margin-top: 225px;
+    margin-top: 294px;
     color: #F1E99A;
     text-align: center;
     font-size: bold;
@@ -70,14 +70,14 @@ footer{
 
 
 
-@media(min-width:1380px){
+/* @media(min-width:1380px){
     body{
         height: 50px;
     }
     footer{
         margin: 500px 0;
     }
-}
+} */
 
 @media(max-width:1180px){
        h1{

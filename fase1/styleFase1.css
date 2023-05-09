@@ -118,7 +118,7 @@ footer{
     color: rgb(243, 235, 235); 
     font-weight: bold;
     text-align: center;
-    margin-top: 118px;
+    margin-top: 190px;
 }
 
 .botao :hover{
@@ -128,13 +128,13 @@ footer{
     background: linear-gradient(to right, #614d2e, #c7841f)  ;
 }
 
-@media(max-width:1280px){
+/* @media(max-width:1280px){
     footer{
         margin-top: 250px;
         padding: 10px;
         font-size: 16px;
     } 
-}
+} */
 
 @media(max-width:1000px){
     body{
@@ -425,7 +425,7 @@ footer{
         font-size: 12px;
     }
      footer{
-        margin-top: 440px;
+        margin-top: 442px;
         padding: 4px;
         font-size: 11px;
     } 
@@ -485,7 +485,7 @@ footer{
         font-size: 12px;
     }
      footer{
-        margin-top: 244px;
+        margin-top: 252px;
         padding: 4px;
         font-size: 11px;
     } 
@@ -599,14 +599,14 @@ footer{
         width: 355px;
     } 
 }
-@media(min-width:1440px){
+/* @media(min-width:1440px){
     
      footer{
         margin-top: 250px;
         padding: 10px;
         font-size: 16px;
     } 
-} 
+}  */
 
 
 
