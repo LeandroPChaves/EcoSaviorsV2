@@ -141,12 +141,11 @@ footer{
         background-position: center;
     }
     #boasVindas{
-        font-size: 35px;
+        font-size: 30px;
     }
     #apresentacao{
         margin: 40px 0;
-        font-size: 25px;
-        max-width: 98%;
+        font-size: 20px;
         text-align: center;
     }
     #imgGuarda{
@@ -159,15 +158,15 @@ footer{
         height: 230px;
     }
     .principal{
-        width: 800px;
+        width: 900px;
         margin: -20px 10px;
         justify-content: space-between;
     }
     .secundaria{
-        font-size: 25px;
-        height: 600px;
-        margin-left: 200px;
-        width: 300px;
+        font-size: 20px;
+        height: 450px;
+        margin-left: auto;
+        width: 280px;
     }
     #pjogar{
         width: 1px;
@@ -191,7 +190,7 @@ footer{
         font-size: 18px;
     }
      footer{
-        margin-top: 389px;
+        margin-top: 593px;
         padding: 10px;
         font-size: 16px;
     } 
@@ -220,26 +219,26 @@ footer{
     }
     .principal{
         width: 350px;
-        margin-bottom: -100px;
+        margin: 80px 0;
         justify-content: space-between;
     }
     .secundaria{
         font-size: 14px;
         height: 250px;
-        margin-left: 200px;
+        margin-left: 250px;
         width: 240px;
     }
     #pjogar{
         width: 1px;
-        margin-left: -10px;
+        margin: auto;
     }
     #h3jogando{
-        margin-bottom: 10px;
+        margin-bottom: 40px;
         font-size: 20px;
     }
     .botao input{
         width: 150px;
-        margin: 10px 0;
+        margin: 20px 0;
         font-size: 15px;
         font-weight: bold;
     }
@@ -251,7 +250,7 @@ footer{
         font-size: 15px;
     }
      footer{
-        margin-top: 300px;
+        margin-top: 603px;
         padding: 5px;
         font-size: 12px;
     } 
@@ -318,7 +317,7 @@ footer{
     } 
 } 
 
- @media(max-width:500px){
+ @media(max-width:540px){
     body{
         background-position: center;
     }
@@ -326,9 +325,8 @@ footer{
         font-size: 20px;
     }
     #apresentacao{
-        margin: 40px 0;
+        margin: 20px;
         font-size: 14px;
-        max-width: 98%;
         text-align: center;
     }
     #imgGuarda{
@@ -341,18 +339,16 @@ footer{
         height: 130px;
     }
     .principal{
-        width: 230px;
-        margin: -30px 10px;
+        width: 280px;
+        margin: auto;
+        margin-left: 60px;
     }
     .secundaria{
         font-size: 14px;
-        width: 50%;
-        height: 220px;
-        height: 280px;
     }
     #pjogar{
         width: 1px;
-        margin-left: -50px;
+        margin-left: -30px;
     }
     #h3jogando{
         margin-top: -45px;
@@ -360,7 +356,7 @@ footer{
     }
     .botao input{
         width: 120px;
-        margin: 10px 0;
+        margin: 30px 0;
         font-size: 13px;
         font-weight: bold;
     }
@@ -377,7 +373,7 @@ footer{
         font-size: 12px;
     } 
 } 
-@media(max-width:400px){
+@media(max-width:414px){
     body{
         background-position: center;
     }
@@ -387,7 +383,6 @@ footer{
     }
     #apresentacao{
         font-size: 12px;
-        max-width: 98%;
         text-align: center;
     }
     #imgGuarda{
@@ -401,7 +396,7 @@ footer{
     }
     .principal{
         width: 210px;
-        margin: -20px 10px;
+        margin: -1px 10px;
     }
     .secundaria{
         font-size: 11px;
@@ -417,19 +412,20 @@ footer{
         font-size: 17px;
     }
     .botao input{
-        width: 110px;
-        margin: 10px 0;
+        width: 115px;
+        margin: 10px -20px;
         font-size: 12px;
         font-weight: bold;
     }
     .botao .botaoVoltar{
-        width: 110px;
+        width: 115px;
+        margin-left: -5px;
     }
     .botaoVoltar{
         font-size: 12px;
     }
      footer{
-        margin-top: 375px;
+        margin-top: 440px;
         padding: 4px;
         font-size: 11px;
     } 
@@ -460,7 +456,8 @@ footer{
     }
     .principal{
         width: 200px;
-        margin: 20px -8px;
+        margin: auto;
+        margin-left: -15px;
     }
     .secundaria{
         font-size: 11px;
@@ -477,7 +474,7 @@ footer{
     }
     .botao input{
         width: 110px;
-        margin: 10px 0;
+        margin: 10px -20px;
         font-size: 12px;
         font-weight: bold;
     }
@@ -503,8 +500,7 @@ footer{
     }
     #apresentacao{
         font-size: 8px;
-        text-align: center;
-        width: 95%
+        margin-left: 5px;
     }
     #imgGuarda{
         height: 120px;
@@ -543,8 +539,8 @@ footer{
         font-size: 10px;
     }
      footer{
-        margin-top: 142px;
-        font-size: 10px;
+        margin-top: 128px;
+        font-size: 8px;
     } 
 }
 
