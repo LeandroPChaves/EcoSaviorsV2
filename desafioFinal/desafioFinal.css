@@ -99,5 +99,47 @@ footer{
     color: rgb(243, 235, 235); 
     font-weight: bold;
     text-align: center;
-    margin-top: 245px;
+    margin-top: 244px;
+}
+
+.botao :hover{
+    color: #1f1c07;
+    font-weight: bold;
+    transition: 1s;
+    background: linear-gradient(to right, #614d2e, #c7841f)  ;
+}
+
+@media(max-width:500px){
+ h1{
+    font-size: 15px;
+    margin-top: 1px;
+ }
+ h2{
+    margin-top: -40px;
+    font-size: 10px;
+ }
+ .imagem{
+    margin-top: 1px;
+    width: 90px;
+    height: 70px;
+ }
+ .missao{
+    font-size: 10px;
+    margin-left: 60%;
+    margin-top: -240px;
+ }
+ .botaoJogar{
+    margin-left: -50px;
+    width: 100px;
+    margin-bottom: 30px;
+    font-size: 10px;
+ }
+ .botaoVoltar{
+    margin-left: -50px;
+    width: 100px;
+    font-size: 10px;
+ }
+ footer{
+    margin-top: 185px;
+ }
 }
