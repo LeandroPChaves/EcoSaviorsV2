@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Vehicle';
+    src: url('VehicleBreaksDown-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    /* Extraída do site DaFont */
+}
+
+@font-face {
+    font-family: 'Inlanders';
+    src: url('Inlanders\ Demo.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    /* Extraída do site DaFont */
+}
+
+body{
+    background-image: url('https://getwallpapers.com/wallpaper/full/2/9/7/101934.jpg');
+    background-size: cover;
+}
+
+h1{
+    font-family: 'Vehicle';
+    font-size: 60px;
+    text-align: center;
+    margin-top: -30px;
+    color: #452c08; 
+    margin-bottom: 80px;
+}
+
+h2{
+   font-family: 'Inlanders'; 
+   font-size: 20px;
+   text-align: left;
+   color: #452c08;
+   width: 30%;
+   margin: 30px 30px;
+}
+
+.imagem{
+    height: 150px;
+    margin: 20px 5px;
+}
+
+.imgBiologo{
+    height: 140px;
+    margin-bottom: 33px;
+}
+
+.missao{
+    margin: -320px 10px 20px 75%;
+    font-weight: bold;
+    border: double;
+    border-radius: 10px;
+    max-width: 20%;
+    font-size: 18px;
+    padding: 15px;
+    color: #452c08;
+    box-shadow: 3px 2px 5px 1px #f7f7a149;
+}
+
+.botaoVoltar{
+    margin-left: 55px;
+}
+
+.botao{
+    margin-left: 75%;
+    margin-top: 40px;
+}
+
+.botaoVoltar a{
+    text-decoration: none;
+    color: #f5edab;
+}
+
+.botaoJogar{
+    cursor: pointer;
+}
+
+input, button{
+    height: 50px;
+    width: 140px;
+    background: linear-gradient(to right, #9e6a1d,  #1d1501  );
+    color: #f5edab;
+    text-transform: uppercase;
+    font-weight: bolder;
+    border-radius: 5px;
+    box-shadow: 1px 2px 2px 1px #f7f7a149;
+    border: none;
+}
+
+footer{
+    background-color: #452c08;
+    color: rgb(243, 235, 235); 
+    font-weight: bold;
+    text-align: center;
+    margin-top: 245px;
+}
