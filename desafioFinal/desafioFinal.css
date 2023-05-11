@@ -109,37 +109,232 @@ footer{
     background: linear-gradient(to right, #614d2e, #c7841f)  ;
 }
 
-@media(max-width:500px){
+@media(max-width:540px){
+    body{
+       background-image: url('https://i0.wp.com/www.coliseugeek.com.br/wp-content/uploads/2023/01/a6b3a-clickwallpapers-planet-earth-3840x2160-in-4k-img8-scaled-1.jpg?fit=2560%2C1350&ssl=1');
+       background-position: center;
+    }
+    h1{
+       font-size: 22px;
+       margin-top: -10px;
+       color: #F1E99A;
+    }
+    h2{
+       margin-top: -60px;
+       font-size: 13px;
+       color: #F1E99A;
+       width: 150px;
+    }
+    .imagem{
+       margin-top: 1px;
+       width: 90px;
+       height: 85px;
+    }
+    .missao{
+       font-size: 12px;
+       margin-left: 366px;
+       margin-top: -280px;
+       color: #F1E99A;
+       width: 150px;
+    }
+    .botaoJogar{
+       margin-top: -10px;
+       margin-left: -15px;
+       width: 100px;
+       margin-bottom: 40px;
+       font-size: 10px;
+    }
+    .botaoVoltar{
+       margin-left: -15px;
+       width: 100px;
+       font-size: 10px;
+    }
+    footer{
+       margin-top: 229px;
+    }
+   }
+
+
+@media(max-width:414px){
+    body{
+       background-image: url('https://i0.wp.com/www.coliseugeek.com.br/wp-content/uploads/2023/01/a6b3a-clickwallpapers-planet-earth-3840x2160-in-4k-img8-scaled-1.jpg?fit=2560%2C1350&ssl=1');
+       background-position: center;
+    }
+    h1{
+       font-size: 20px;
+       margin-top: -10px;
+       color: #F1E99A;
+    }
+    h2{
+       margin-top: -60px;
+       font-size: 12px;
+       color: #F1E99A;
+       width: 150px;
+    }
+    .imagem{
+       margin-top: 1px;
+       width: 90px;
+       height: 80px;
+    }
+    .missao{
+       font-size: 11px;
+       margin-left: 285px;
+       margin-top: -270px;
+       color: #F1E99A;
+       width: 150px;
+    }
+    .botaoJogar{
+       margin-top: -10px;
+       margin-left: -15px;
+       width: 100px;
+       margin-bottom: 40px;
+       font-size: 10px;
+    }
+    .botaoVoltar{
+       margin-left: -15px;
+       width: 100px;
+       font-size: 10px;
+    }
+    footer{
+       margin-top: 438px;
+    }
+   }
+
+@media(max-width:393px){
+    body{
+       background-image: url('https://i0.wp.com/www.coliseugeek.com.br/wp-content/uploads/2023/01/a6b3a-clickwallpapers-planet-earth-3840x2160-in-4k-img8-scaled-1.jpg?fit=2560%2C1350&ssl=1');
+       background-position: center;
+    }
+    h1{
+       font-size: 20px;
+       margin-top: -10px;
+       color: #F1E99A;
+    }
+    h2{
+       margin-top: -60px;
+       font-size: 12px;
+       color: #F1E99A;
+       width: 150px;
+    }
+    .imagem{
+       margin-top: 1px;
+       width: 90px;
+       height: 80px;
+    }
+    .missao{
+       font-size: 11px;
+       margin-left: 268px;
+       margin-top: -270px;
+       color: #F1E99A;
+       width: 150px;
+    }
+    .botaoJogar{
+       margin-top: -10px;
+       margin-left: -15px;
+       width: 100px;
+       margin-bottom: 40px;
+       font-size: 10px;
+    }
+    .botaoVoltar{
+       margin-left: -15px;
+       width: 100px;
+       font-size: 10px;
+    }
+    footer{
+       margin-top: 419px;
+    }
+   }
+
+@media(max-width:375px){
+ body{
+    background-image: url('https://i0.wp.com/www.coliseugeek.com.br/wp-content/uploads/2023/01/a6b3a-clickwallpapers-planet-earth-3840x2160-in-4k-img8-scaled-1.jpg?fit=2560%2C1350&ssl=1');
+    background-position: center;
+ }
  h1{
-    font-size: 15px;
-    margin-top: 1px;
+    font-size: 18px;
+    margin-top: -10px;
+    color: #F1E99A;
  }
  h2{
-    margin-top: -40px;
-    font-size: 10px;
+    margin-top: -60px;
+    font-size: 11px;
+    color: #F1E99A;
+    width: 150px;
  }
  .imagem{
     margin-top: 1px;
     width: 90px;
-    height: 70px;
+    height: 80px;
  }
+
+ 
  .missao{
-    font-size: 10px;
-    margin-left: 60%;
+    font-size: 9px;
+    margin-left: 260px;
     margin-top: -240px;
+    color: #F1E99A;
+    width: 150px;
  }
  .botaoJogar{
-    margin-left: -50px;
+    margin-top: -10px;
+    margin-left: -15px;
     width: 100px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     font-size: 10px;
  }
  .botaoVoltar{
-    margin-left: -50px;
+    margin-left: -15px;
     width: 100px;
     font-size: 10px;
  }
  footer{
-    margin-top: 185px;
+    margin-top: 240px;
  }
 }
+
+@media(max-width:360px){
+    body{
+       background-image: url('https://i0.wp.com/www.coliseugeek.com.br/wp-content/uploads/2023/01/a6b3a-clickwallpapers-planet-earth-3840x2160-in-4k-img8-scaled-1.jpg?fit=2560%2C1350&ssl=1');
+       background-position: center;
+    }
+    h1{
+       font-size: 18px;
+       margin-top: -10px;
+       color: #F1E99A;
+    }
+    h2{
+       margin-top: -60px;
+       font-size: 11px;
+       color: #F1E99A;
+       width: 150px;
+    }
+    .imagem{
+       margin-top: 1px;
+       width: 90px;
+       height: 80px;
+    }
+   
+    
+    .missao{
+       font-size: 9px;
+       margin-left: 250px;
+       margin-top: -240px;
+       color: #F1E99A;
+       width: 150px;
+    }
+    .botaoJogar{
+       margin-top: -10px;
+       margin-left: -15px;
+       width: 100px;
+       margin-bottom: 40px;
+       font-size: 10px;
+    }
+    .botaoVoltar{
+       margin-left: -15px;
+       width: 100px;
+       font-size: 10px;
+    }
+    footer{
+       margin-top: 303px;
+    }
+   }
