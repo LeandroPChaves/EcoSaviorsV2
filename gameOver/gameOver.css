@@ -20,3 +20,12 @@ footer{
         background-color: #25230f9d;
         margin-top: 173px;
 }
+@media (max-width: 600px){
+    .gameOver{
+        font-size: 80px;
+    }
+}
+
+footer{
+    margin-top: 440px;
+}

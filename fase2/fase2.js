@@ -3,10 +3,10 @@ function btnFase2Guarda(){
     Digite 1, 2 ou 3 para marcar a opção desejada:
     1: Permitir a construção, pois no projeto foi informado que a cada árvore cortada, será plantada duas em outra localidade.
     2: Encontrar outra opção viável para a construção do empreendimento.
-    3: Ia a floresta e ficar no local para impedir a obra.`);
+    3: Ir até a floresta e ficar no local para impedir a obra.`);
 
     if(opcoes == 1){
-        alert("Você perdeu, destruiu a Folresta Encantada.");
+        alert("Você perdeu, destruiu a Floresta Encantada.");
         location.replace("../gameOver/gameOver.html");
       }
        else if (opcoes == 2){
@@ -14,7 +14,7 @@ function btnFase2Guarda(){
          location.replace("../fase3/fase3Guarda.html");
        }
         else if(opcoes == 3) {
-         alert("Você perdeu, foi preso e a floresta destruída");
+         alert("Você perdeu, foi preso e a floresta destruída.");
          location.replace("../gameOver/gameOver.html");
         }
          else {
@@ -59,11 +59,11 @@ function btnFase2Biologo(){
      location.replace("../fase3/fase3Biologo.html");
   } 
     else if (opcoes == 2){
-       alert("Você perdeu, Não devemos retirar as empresas e sim conscientizá-las. Sem a ação correta, as empresas contaminaram a Floresta até acabar com toda a área natural");
+       alert("Você perdeu, Não devemos retirar as empresas e sim conscientizá-las. Sem a ação correta, as empresas contaminaram a Floresta até acabar com toda a área natural.");
        location.replace("../gameOver/gameOver.html"); 
        } 
         else if (opcoes == 3){
-         alert("Você perdeu. Multar as empresas a todo instante não resolve o problema e a contaminação prosseguiu mesmo com as multas");
+         alert("Você perdeu. Multar as empresas a todo instante não resolve o problema e a contaminação prosseguiu mesmo com as multas.");
          location.replace("../gameOver/gameOver.html");
        }
        else {

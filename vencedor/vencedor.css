@@ -25,11 +25,9 @@ h2{
     font-size: 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-img{
-    width: 300px;
-    margin-top: 20px;
-    margin-left: 20%;
+main{
+    margin-top: 60px;
+   text-align: center;
 }
 footer{
     text-align: center;
@@ -47,14 +45,8 @@ footer{
     h2{
         font-size: 30px;
     }
-
-    img{
-        margin-top: 200px;
-        width: 300px;
-        margin-left: 300px;
-    }
     footer{
-        margin-top: 690px;
+        margin-top: 920px;
         font-size: 20px;
     }
 }
@@ -70,14 +62,9 @@ footer{
     h2{
         font-size: 25px;
     }
-
-    img{
-        margin-top: 200px;
-        width: 300px;
-        margin-left: 260px;
-    }
+    
     footer{
-        margin-top: 520px;
+        margin-top: 600px;
     }
 }
 
@@ -94,10 +81,7 @@ footer{
         font-size: 20px;
     }
 
-    img{
-        margin-top: 100px;
-        width: 220px;
-    }
+    
     footer{
         margin-top: 420px;
     }
@@ -115,18 +99,14 @@ footer{
         font-size: 20px;
     }
 
-    img{
-        margin-top: 100px;
-        margin-left: 90px;
-        width: 220px;
-    }
+
     footer{
         margin-top: 450px;
         background-color: #452c08;
     }
 }
 
-@media(max-width: 400px){
+@media(max-width: 390px){
     body{
         background-position: left;
     }
@@ -138,15 +118,9 @@ footer{
         font-size: 20px;
     }
 
-    img{
-        margin-top: 100px;
-        margin-left: 75px;
-        width: 220px;
-    }
     footer{
-        margin-top: 200px;
         font-size: 12px;
-        margin-top: 370px;
+        margin-top: 425px;
     }
 }
 
@@ -162,11 +136,6 @@ footer{
         font-size: 20px;
     }
 
-    img{
-        margin-top: 100px;
-        margin-left: 75px;
-        width: 120px;
-    }
     footer{
         margin-top: 200px;
         font-size: 12px;

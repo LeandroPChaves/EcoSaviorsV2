@@ -10,11 +10,11 @@ function btnFase1Guarda(){
         location.replace("../gameOver/gameOver.html");
       }
        else if (opcoes == 2){
-         alert("Você perdeu, os caçadores executaram vários animais e já foram embora");
+         alert("Você perdeu, os caçadores executaram vários animais foram embora.");
          location.replace("../gameOver/gameOver.html");
        }
         else if(opcoes == 3) {
-         alert("Parabéns, Você prendeu os caçadores e passou de fase");
+         alert("Parabéns, Você prendeu os caçadores e passou de fase.");
          location.replace("../fase2/fase2Guarda.html");
         }
          else {
@@ -38,7 +38,7 @@ function btnFase1Heroina(){
          location.replace("../gameOver/gameOver.html");
       }
        else if (opcoes == 3){
-          alert ("Você perdeu, enquanto tentava descobrir os vilões, eles conseguiram ativar a arma química e acabar com a área de preservação");
+          alert ("Você perdeu, enquanto tentava descobrir os vilões, eles conseguiram ativar a arma química e acabar com a área de preservação.");
           location.replace("../gameOver/gameOver.html");
        }
        else {
@@ -49,7 +49,7 @@ function btnFase1Heroina(){
 function btnFase1Biologo(){
   let opcoes = prompt(`
   Digite 1, 2 ou 3 para marcar a opção desejada:
-  1: Fazer uma fórmula para aplicar na água,plantas e frutas, tirando os efeitos da contaminação.
+  1: Fazer uma fórmula para aplicar nas aguas, plantas e frutas, tirando os efeitos da contaminação.
   2: Purificar uma área isolada, colocar todas as éspécies nela enquanto for descontaminando o restante da mata.
   3: Deixar que os animais procurem locais para se salvar devido ao seu instinto de sobrevivência.`)
 
