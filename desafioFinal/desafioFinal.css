@@ -92,6 +92,7 @@ input, button{
     border-radius: 5px;
     box-shadow: 1px 2px 2px 1px #f7f7a149;
     border: none;
+
 }
 
 footer{
@@ -109,9 +110,8 @@ footer{
     background: linear-gradient(to right, #614d2e, #c7841f)  ;
 }
 
-@media(max-width:1300px){
+/* @media(max-width:1300px){ 
    body{
-      /* background-image: url('https://i0.wp.com/www.coliseugeek.com.br/wp-content/uploads/2023/01/a6b3a-clickwallpapers-planet-earth-3840x2160-in-4k-img8-scaled-1.jpg?fit=2560%2C1350&ssl=1'); */
       background-position: center;
       color: #452c08;
    }
@@ -132,7 +132,7 @@ footer{
    .missao{
       font-size: 18px;
       margin-left: 990px;
-      margin-top: -350px;
+      margin-top: -350px;  
       width: 150px;
       text-align: center;
    }
@@ -152,11 +152,10 @@ footer{
       margin-top: 110px;
       padding: 5px;
    }
-  }
+  } */
 
-  @media(max-width:1180px){
+   @media(max-width:1180px){
    body{
-      /* background-image: url('https://i0.wp.com/www.coliseugeek.com.br/wp-content/uploads/2023/01/a6b3a-clickwallpapers-planet-earth-3840x2160-in-4k-img8-scaled-1.jpg?fit=2560%2C1350&ssl=1'); */
       background-position: center;
       color: #452c08;
    }
@@ -198,7 +197,7 @@ footer{
       padding: 5px;
    }
   }
-
+ 
 
 
 @media(max-width:1024px){
